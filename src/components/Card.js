@@ -21,21 +21,21 @@ const Card = () => {
               href='#'
               className='text-xl m-1 p-1 sm:p-2 text-gray-800 hover:bg-gray-500 rounded-full hover:text-white transition-colors duration-300'
             >
-              <FaGithub />
+              <FaGithub className='animate-spin' />
               <span class='sr-only'>Github</span>
             </a>
             <a
               href='#'
               className='text-xl m-1 p-1 sm:p-2 text-blue-500 hover:bg-blue-500 rounded-full hover:text-white transition-colors duration-300'
             >
-              <FaTwitter />
+              <FaTwitter className='animate-bounce' />
               <span class='sr-only'>Twitter</span>
             </a>
             <a
               href='#'
               className='text-xl m-1 p-1 sm:p-2 text-green-300 hover:bg-green-300 rounded-full hover:text-white transition-colors duration-300'
             >
-              <FaEnvelope />
+              <FaEnvelope className='animate-pulse' />
               <span class='sr-only'>Email</span>
             </a>
           </div>
